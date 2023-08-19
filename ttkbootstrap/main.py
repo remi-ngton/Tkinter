@@ -2,9 +2,8 @@ from tkinter import *
 from ttkbootstrap.constants import *
 import ttkbootstrap as ttkb
 
-root = ttkb.Window(themename="cyborg")
+root = ttkb.Window(title="TTK Bootstrap", themename="cyborg")
 #root = Tk()
-root.title("TTK Bootstrap")
 root.geometry('500x600')
 
 def checker():
